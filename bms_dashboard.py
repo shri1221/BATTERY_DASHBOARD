@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_excel(r"C:\Users\HP\Desktop\BMS.xlsx")
+df = pd.read_excel("BMS.xlsx")
 
 # Clean unnamed or empty column
 if ' ' in df.columns:
